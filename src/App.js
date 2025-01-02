@@ -45,8 +45,8 @@ function App() {
             </div>
             <div className="skill-card">
               <div className="skill-content">
-                <h3>Herramientas</h3>
-                <p>Tableau · Python · SQL · R · Excel</p>
+                <h3>Tecnologías</h3>
+                <p>Tableau · Python · SQL · R · Excel · MySQL · Oracle Discoverer · Dbeaver · Redshift · Athena · Postgre · Superset · Visual Studio Code · Jupyter Notebooks · Spider · MySQL Workbench · Google Data Studio · Power BI · Coolab · Airflow · Power Automate · Visual Basic · AWS · Github</p>
               </div>
             </div>
           </div>
@@ -134,7 +134,24 @@ function App() {
       <section className="section about-section">
         <div className="about">
           <h2>Sobre Mí</h2>
-          <p>I am a data analyst passionate about transforming data into meaningful insights.</p>
+          
+          <p>Mi objetivo es proporcionar soluciones efectivas a desafíos relacionados con datos, disfrutando cada etapa del proceso. Poseo la habilidad de traducir requisitos comerciales en soluciones prácticas y efectivas.</p>
+          
+          <p>Me caracterizo por un enfoque colaborativo, pensamiento innovador y eficiencia en la resolución de problemas. Siempre en búsqueda de nuevos enfoques, estoy comprometida a mejorar la lógica empresarial y superar las expectativas.</p>
+          
+          <p>Con una curiosidad innata por la tecnología, exploro el enorme poder de los datos para descubrir soluciones óptimas. Además, destaco por mis excelentes habilidades de comunicación, lo que me permite conectar y colaborar eficazmente con equipos multidisciplinarios.</p>
+          
+          <div style={{position: 'relative', width: '100%', height: '0', paddingTop: '100%',
+            paddingBottom: '0', boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)', marginTop: '1.6em', marginBottom: '0.9em', overflow: 'hidden',
+            borderRadius: '8px', willChange: 'transform'}}>
+            <iframe 
+              loading="lazy" 
+              style={{position: 'absolute', width: '100%', height: '100%', top: '0', left: '0', border: 'none', padding: '0', margin: '0'}}
+              src="https://www.canva.com/design/DAGbA6B94Hc/-8A85f6uQxoXPdT0hCT5jw/view?embed" 
+              allowFullScreen="allowfullscreen" 
+              allow="fullscreen">
+            </iframe>
+          </div>
           <h3>Skills</h3>
           <ul>
             <li>Data Analysis</li>

@@ -182,7 +182,7 @@ nav a:hover {
 }
 
 .education-card h4 {
-  color: #3498db;
+  color: #1b758f;
   font-size: 1.1rem;
   margin-bottom: 1rem;
   font-weight: normal;
@@ -199,7 +199,7 @@ nav a:hover {
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.9rem;
-  background: #2ecc71;
+  background: #1b758f;
   color: white;
 }
 
@@ -208,7 +208,7 @@ nav a:hover {
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.9rem;
-  background: #f1c40f;
+  background: #56b6c9;
   color: white;
 }
 
@@ -396,8 +396,9 @@ nav a:hover {
 }
 
 .logo-header {
-  height: 160px;
+  height: 180px;
   width: auto;
+  margin-bottom: 1rem;
   animation: fadeIn 1s ease-in;
 }
 
@@ -470,19 +471,16 @@ nav a:hover {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .skills-grid .skill-card:last-child {
-  grid-column: 1 / -1;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  grid-column: span 3;
 }
 
 .skill-card {
@@ -514,12 +512,6 @@ nav a:hover {
   font-size: 1rem;
 }
 
-.logo-header {
-  height: 120px;
-  width: auto;
-  margin-bottom: 1rem;
-}
-
 @media (max-width: 768px) {
   .hero-header h1 {
     font-size: 3rem;
@@ -527,5 +519,9 @@ nav a:hover {
   
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .logo-header {
+    height: 150px;
   }
 }
